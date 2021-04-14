@@ -1,3 +1,1 @@
 Git é uma tecnologia que permite fazer o controle de versionamento de códigos de maneira distribuída.
-
-"Git é prática, git é vida, git é maravilhoso" - BATMA, Gus.
