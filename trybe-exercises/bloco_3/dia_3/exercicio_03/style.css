@@ -1,0 +1,16 @@
+h1, p, ol, li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li:hover {
+    background-color: red;
+}
+
+li:active {
+    color: white;
+}
+
+ul {
+    list-style:disc;
+}
