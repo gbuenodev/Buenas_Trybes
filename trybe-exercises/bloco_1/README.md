@@ -1,33 +1,24 @@
-Os exercícios desenvolvidos aqui envolveram o entendimento básico de sistemas que utilizam o kernel Unix. Foram exercícios principalmente focados na prática com o terminal BASH/ZSH envolvendo comandos como:
+#### Os exercícios desenvolvidos aqui envolveram o entendimento básico de sistemas que utilizam o kernel Unix. Foram exercícios principalmente focados na prática com o terminal BASH/ZSH envolvendo comandos como:
 
-- ls
-- cd
-- mkdir
-- pwd
-- mv
-- rm
-- rmdir
-- cat
-- less
-- head
-- tail
-- grep
-- wc
-- *
-- ?
-- man
-- whatis
-- apropos
-- >
-- >>
-- &&
-- |
-- chmod
-- ^C
-- ^Z
-- bg
-- jobs
-- fg %1
-- kill %1
-- ps
+| COMANDOS | OPERADORES |
+|----------|------------|
+| ls       | *          |
+| cd       | ?          |
+| mkdir    | >          |
+| pwd      | >>         |
+| mv       | &&         |
+| rm       | \|         |
+| rmdir    | ^C         |
+| cat      | ^Z         |
+| less     | %          |
+| head     |            |
+| tail     |            |
+| grep     |            |
+| wc       |            |
+| chmod    |            |
+| bg       |            |
+| jobs     |            |
+| fg       |            |
+| kill     |            |
+| ps       |            |
 
