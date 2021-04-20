@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-menu {
+    background-color: #808080;
+    color: black;
+    width: 100%;
+}
+
+.nav-items {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    line-height: 7vh;
+    text-align: center;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding-inline: 3vw;
+    margin-inline: 1vw;
+}
+
+.nav-items li:hover {
+    color: beige;
+    transition: 0.3s;
+}
+
+header {
+    display: inline-block;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+header img, header h1 {
+    display: inline-block;
+    padding: 3vw;
+    vertical-align: middle;
+}
+
+header img {
+    border-radius: 50%;
+    width: 20vw;
+}
+
+main {
+    display: inline-block;
+}
+
+.ficha-tecnica{
+    padding: 1vw;
+}
+
+.main-article h2 {
+    padding: 1vw;
+    text-align: initial;
+}
+
+.main-article p {
+    display: inline-block;
+    padding: 1vw;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    padding: 0.3vw;
+    margin: auto;
+    background-color: lightgray;
+}
+
+td {
+    border: 1px solid black;
+    background-color: white;
+}
+
+.ficha-tecnica table tr td:nth-child(even) {
+    text-align: center;
+}
+
+.ficha-tecnica h3 {
+    text-align: center;
+}
+
+.curiosidades {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.curiosidades h2 {
+    padding: 1vw;
+}
+
+.curiosidades h3 {
+    padding-left: 1vw;
+}
+
+.curiosidades article {
+    display: inline-block;
+    width: 30%;
+    padding: 1vw;
+    vertical-align: top;
+}
+
+.curiosidades img {
+    width: 20vw;
+    padding: 1vw;
+}
+
+.curiosidades p {
+    text-align: initial;
+}
+
+aside {
+    background-color: grey;
+    position: absolute;
+    right: 0;
+    top: 110vh;
+    width: 100px;
+    padding: 1vw;
+    text-align: center;
+}
+
+aside a:hover {
+    color: beige;
+    transition: 0.3s;
+}
+
+.referencias ul li a:hover {
+    color: grey;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 7vh;
+}
+
+footer span {
+    color: beige;
+}
