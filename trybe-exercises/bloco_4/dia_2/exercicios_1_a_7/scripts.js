@@ -10,5 +10,8 @@ for (let index = 0; index < numbers.length; index += 1) {
     resultado = resultado + numbers[index];
 };
 
+let media = resultado / numbers.length;
+
 console.log(resultado);
+console.log(media);
     
