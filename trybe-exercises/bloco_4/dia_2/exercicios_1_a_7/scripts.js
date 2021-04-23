@@ -29,4 +29,28 @@ for (let index = 0; index < numbers.length; index += 1) {
     }
 }
 
-console.log(maiorNumero);
+// console.log(maiorNumero);
+
+// let numerosImpares = 0;
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] % 2 !==0) {
+//         numerosImpares += 1;
+//     }
+// };
+
+// if (numerosImpares > 0) {
+//     console.log("Existe pelo menos 1 número ímpar nesse array");
+// } else {
+//     console.log("nenhum valor ímpar encontrado");
+// };
+
+let menorNumero = maiorNumero;
+
+for (let index = 0; index < numbers.length; index += 1) {
+    if(numbers[index] < menorNumero) {
+        menorNumero = numbers[index];
+    }
+}
+
+console.log(menorNumero);
