@@ -9,6 +9,8 @@
 ### Fundamentos do Desenvolvimento Web ✅
 
 #### Bloco 1 - Unix & Bash
+- [x] 1.3 Fundamentos do Desenvolvimento Web
+- [x] 1.3 Introdução - Unix & Shell
 - [x] 1.3 Unix & Bash - Parte 1
 - [x] 1.4 Unix & Bash - Parte 2
 
@@ -26,6 +28,7 @@
 - [x] _Projeto - Lessons Learned_ 💯
 
 #### Introdução à JavaScript e Lógica de Programação
+- [x] 1.1 Introdução - JavaScript
 - [x] 1.1 JavaScript - Primeiros passos
 - [ ] 1.2 JavaScript - Array e Loop For
 - [ ] 1.3 JavaScript - Lógica de Programação e Algoritmos
