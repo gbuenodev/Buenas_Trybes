@@ -23,7 +23,7 @@
 - [x] 1.2 HTML & CSS - Primeiros passos em CSS
 - [x] 1.3 HTML & CSS - Seletores e posicionamento
 - [x] 1.4 HTML Semântico
-- [x] _Projeto - Lessons Learned_
+- [x] _Projeto - Lessons Learned_ 💯
 
 #### Introdução à JavaScript e Lógica de Programação
 - [x] 1.1 JavaScript - Primeiros passos
