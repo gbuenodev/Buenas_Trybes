@@ -19,7 +19,7 @@
 - [x] 1.2 Git & GitHub - Entendendo os comandos
 - [x] 1.3 Internet - Entendendo como ela funciona
 
-#### Introdução à HTML e CSS
+#### Bloco 3 - Introdução à HTML e CSS
 - [x] 1.1 Introdução - HTML & CSS
 - [x] 1.1 HTML & CSS - Estruturas de página
 - [x] 1.2 HTML & CSS - Primeiros passos em CSS
@@ -27,7 +27,7 @@
 - [x] 1.4 HTML Semântico
 - [x] _Projeto - Lessons Learned_ 💯
 
-#### Introdução à JavaScript e Lógica de Programação
+#### Bloco 4 - Introdução à JavaScript e Lógica de Programação
 - [x] 1.1 Introdução - JavaScript
 - [x] 1.1 JavaScript - Primeiros passos
 - [ ] 1.2 JavaScript - Array e Loop For
