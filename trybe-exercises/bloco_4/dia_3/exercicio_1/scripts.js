@@ -1,11 +1,9 @@
 let n = 5;
-let symbol = '*';
-let display = '';
 
-for (let asterisks = 0; asterisks < n; asterisks += 1) {
-    display += symbol;
-};
-
-for (let line = 0; line < n; line += 1 ){
-    console.log(display);
+for (let index = 0; index < n; index += 1) {
+    let linha = '';
+    for (let coluna = 0; coluna < n; coluna += 1) {
+        linha += '*';
+    };
+    console.log (linha);
 };
