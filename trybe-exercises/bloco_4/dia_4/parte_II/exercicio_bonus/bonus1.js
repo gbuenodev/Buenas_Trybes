@@ -50,4 +50,3 @@ const converteRomanosEmInteiro = (numeroRomano) => {
 };
 
 console.log(converteRomanosEmInteiro(numeroRomano));
-
