@@ -32,5 +32,5 @@
 - [x] 1.1 JavaScript - Primeiros passos
 - [x] 1.2 JavaScript - Array e Loop For
 - [x] 1.3 JavaScript - Lógica de Programação e Algoritmos
-- [ ] 1.4 JavaScript - Objetos e Funções
+- [x] 1.4 JavaScript - Objetos e Funções
 - [ ] _Projeto - Playground Functions_
