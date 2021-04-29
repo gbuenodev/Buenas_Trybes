@@ -41,8 +41,8 @@
 - [ ] 1.3 JavaScript - Eventos
 - [ ] 1.4 JavaScript - Web Storage
 - [ ] 1.5 Fundamentos - JavaScript - Projetos
-- [ ] 1.5 _Projeto - Arte com Pixels_
-- [ ] 1.6 _Projeto - Lista de Tarefas_
-- [ ] 1.7 _(Bônus) Projeto - Meme Generator_
-- [ ] 1.7 _(Bônus) Projeto - Adivinhe a Cor_
-- [ ] 1.7 _(Bônus) Projeto - Carta Misteriosa_
+- [ ] _Projeto - Arte com Pixels_
+- [ ] _Projeto - Lista de Tarefas_
+- [ ] _(Bônus) Projeto - Meme Generator_
+- [ ] _(Bônus) Projeto - Adivinhe a Cor_
+- [ ] _(Bônus) Projeto - Carta Misteriosa_
