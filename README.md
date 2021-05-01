@@ -33,4 +33,16 @@
 - [x] 1.2 JavaScript - Array e Loop For
 - [x] 1.3 JavaScript - Lógica de Programação e Algoritmos
 - [x] 1.4 JavaScript - Objetos e Funções
-- [ ] _Projeto - Playground Functions_
+- [x] _Projeto - Playground Functions_ 💯
+
+#### Bloco 05 - JavaScript: DOM, Eventos e Web Storage
+- [ ] 1.1 JavaScript - DOM e seletores
+- [ ] 1.2 JavaScript - Trabalhando com elementos
+- [ ] 1.3 JavaScript - Eventos
+- [ ] 1.4 JavaScript - Web Storage
+- [ ] 1.5 Fundamentos - JavaScript - Projetos
+- [ ] _Projeto - Arte com Pixels_
+- [ ] _Projeto - Lista de Tarefas_
+- [ ] _(Bônus) Projeto - Meme Generator_
+- [ ] _(Bônus) Projeto - Adivinhe a Cor_
+- [ ] _(Bônus) Projeto - Carta Misteriosa_
