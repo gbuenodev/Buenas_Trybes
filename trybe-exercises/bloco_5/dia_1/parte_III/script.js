@@ -5,7 +5,7 @@ header.style.backgroundColor = 'green';
 const trocaCor = (node, cor) => {
   for (let index = 0; index < node.length; index += 1) {
     node[index].style.backgroundColor = cor;
-  };
+  }
 };
 
 let section1 = document.getElementsByClassName('emergency-tasks');
