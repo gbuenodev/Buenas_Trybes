@@ -51,9 +51,13 @@ for (let index = 0; index < unorderedListItems.length; index += 1) {
   let item = unorderedListItems[index];
 
   let newItem = document.createElement('li');
-  newItem.innerHTML = item;
+  newItem.innerText = item;
 
   numbersList.appendChild(newItem);
+
+  if (item.includes('Dez') || item.includes('Nove')) {
+    numbersList.removeChild(newItem);
+  }
 }
 
 let subtitle1 = document.createElement('h3');
@@ -63,3 +67,17 @@ let subtitle3 = document.createElement('h3');
 document.getElementsByClassName('main-content')[0].appendChild(subtitle1);
 document.getElementsByClassName('main-content')[0].appendChild(subtitle2);
 document.getElementsByClassName('main-content')[0].appendChild(subtitle3);
+
+h1.className = 'title';
+subtitle1.className = 'description';
+subtitle2.className = 'description';
+subtitle3.className = 'description';
+
+document.getElementsByClassName('main-content')[0].removeChild(leftDiv);
+
+let div = document.getElementsByClassName('right-content')[0];
+div.style.marginRight = 'auto';
+
+document.getElementsByClassName(
+  'center-content'
+)[0].parentElement.style.backgroundColor = 'green';
