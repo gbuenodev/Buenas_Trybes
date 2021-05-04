@@ -80,3 +80,14 @@ for (let index = 0; index < dezDaysList.length; index += 1) {
 
   ulDays.appendChild(ulItem);
 }
+
+let buttonsContainer = document.querySelector('.buttons-container');
+
+const createButton = (buttonText) => {
+  let button = document.createElement('button');
+  button.innerText = buttonText;
+  button.className = 'btn-holiday';
+  buttonsContainer.appendChild(button);
+};
+
+createButton('Feriados');
