@@ -127,7 +127,7 @@ const adicionaTarefa = (texto) => {
   captureDivMyTasks.appendChild(newSpan);
 };
 
-adicionaTarefa('Estudar WebDevelopment.');
+adicionaTarefa('Estudar WebDevelopment');
 
 // Exercício 8:
 const adicionaLegendaComCor = (cor) => {
@@ -152,4 +152,14 @@ for (let index = 0; index < captureDivTask.length; index += 1) {
   });
 }
 
-// Exercício 10:
+// Exercício 10:  
+  for (let index = 0; index < captureMonthDays.length; index += 1) {
+    captureMonthDays[index].addEventListener('click', (event) => {
+    const captureDivTaskColor = document.querySelector('.task.selected').style.backgroundColor;
+    if(event.target.style.color === captureDivTaskColor) {
+      event.target.style.color = '';
+    } else {
+      event.target.style.color = captureDivTaskColor;
+    }
+  });
+};
