@@ -153,9 +153,9 @@ for (let index = 0; index < captureDivTask.length; index += 1) {
 }
 
 // Exercício 10:  
-  for (let index = 0; index < captureMonthDays.length; index += 1) {
-    captureMonthDays[index].addEventListener('click', (event) => {
-    const captureDivTaskColor = document.querySelector('.task.selected').style.backgroundColor;
+for (let index = 0; index < captureMonthDays.length; index += 1) {
+  captureMonthDays[index].addEventListener('click', (event) => {
+  const captureDivTaskColor = document.querySelector('.task.selected').style.backgroundColor;
     if(event.target.style.color === captureDivTaskColor) {
       event.target.style.color = '';
     } else {
@@ -163,3 +163,28 @@ for (let index = 0; index < captureDivTask.length; index += 1) {
     }
   });
 };
+
+// Bônus:
+const input = document.querySelector('#task-input');
+const addButton = document.querySelector('#btn-add');
+const appointmentList = document.querySelector('.task-list');
+
+addButton.addEventListener('click', () => {
+  if (input.value.length > 0) {
+    let newAppointment = document.createElement('li');
+    newAppointment.innerText = input.value;
+    appointmentList.appendChild(newAppointment);
+    input.value = '';
+  } else {
+    alert('Nenhum valor foi digitado.');
+  }
+});
+
+input.addEventListener ('keyup', (event) => {
+  if (event.keyCode === 13 && input.value.length > 0) {
+    let newAppointment = document.createElement('li');
+    newAppointment.innerText = input.value;
+    appointmentList.appendChild(newAppointment);
+    input.value = '';
+  }
+});
