@@ -127,6 +127,16 @@ const adicionaTarefa = (texto) => {
   captureDivTasks.appendChild(newSpan);
 };
 
-adicionaTarefa('Estudar programação. Para sempre. Sempre. Sem fim.');
+adicionaTarefa('Estudar WebDevelopment.');
 
 // Exercício 8:
+const adicionaLegendaComCor = (cor) => {
+  let newDiv = document.createElement('div');
+  newDiv.className = 'task';
+  newDiv.style.backgroundColor = cor;
+  captureDivTasks.appendChild(newDiv);
+}
+
+adicionaLegendaComCor('red');
+
+// Exercício 9:
