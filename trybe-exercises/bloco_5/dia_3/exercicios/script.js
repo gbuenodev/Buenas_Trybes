@@ -119,3 +119,14 @@ for (let index = 0; index < captureMonthDays.length; index += 1) {
 }
 
 // Exercício 7:
+const captureDivTasks = document.querySelector('.my-tasks');
+
+const adicionaTarefa = (texto) => {
+  let newSpan = document.createElement('span');
+  newSpan.innerText = texto;
+  captureDivTasks.appendChild(newSpan);
+};
+
+adicionaTarefa('Estudar programação. Para sempre. Sempre. Sem fim.');
+
+// Exercício 8:
