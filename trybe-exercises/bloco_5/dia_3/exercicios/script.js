@@ -22,43 +22,11 @@ function createDaysOfTheWeek() {
 createDaysOfTheWeek();
 
 // Escreva seu código abaixo.
-let ulDays = document.querySelector('#days');
 
-const dezDaysList = [
-  29,
-  30,
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  10,
-  11,
-  12,
-  13,
-  14,
-  15,
-  16,
-  17,
-  18,
-  19,
-  20,
-  21,
-  22,
-  23,
-  24,
-  25,
-  26,
-  27,
-  28,
-  29,
-  30,
-  31,
-];
+// Exercício 1:
+const ulDays = document.querySelector('#days');
+
+const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;
 
 for (let index = 0; index < dezDaysList.length; index += 1) {
   let item = dezDaysList[index];
@@ -81,13 +49,73 @@ for (let index = 0; index < dezDaysList.length; index += 1) {
   ulDays.appendChild(ulItem);
 }
 
-let buttonsContainer = document.querySelector('.buttons-container');
+// Exercício 2:
+const buttonsContainer = document.querySelector('.buttons-container');
 
-const createButton = (buttonText) => {
+const createButton = (buttonText, buttonID) => {
   let button = document.createElement('button');
   button.innerText = buttonText;
-  button.className = 'btn-holiday';
+  button.id = buttonID;
   buttonsContainer.appendChild(button);
 };
 
-createButton('Feriados');
+createButton('Feriados', 'btn-holiday');
+
+// Exercício 3:
+const captureHolidayButton = document.querySelector('#btn-holiday');
+const captureHolidays = document.querySelectorAll('.holiday');
+
+captureHolidayButton.addEventListener('click', () => {
+  for (let index = 0; index < captureHolidays.length; index += 1) {
+    if (captureHolidays[index].style.backgroundColor === '') {
+      captureHolidays[index].style.backgroundColor = 'lightgreen';
+    } else {
+      captureHolidays[index].style.backgroundColor = '';
+    }
+  }
+});
+
+// Exercício 4:
+createButton('Sexta-Feira', 'btn-friday');
+
+// Exercício 5: 
+const captureFridayButton = document.querySelector('#btn-friday');
+const captureFridays = document.querySelectorAll('.friday');
+
+const captureFridayDaysNumbers = () => {
+  let fridayNumbersArray = [];
+  for (let index = 0; index < captureFridays.length; index += 1) {
+    fridayNumbersArray.push(parseInt(captureFridays[index].innerText));
+  }
+  return fridayNumbersArray;
+}
+
+let numbers = captureFridayDaysNumbers();
+let fridayText = 'SEXTOU !!';
+
+captureFridayButton.addEventListener('click', () => {
+  for (let index = 0; index < captureFridays.length; index += 1) {
+    if ((captureFridays[index].innerText) === fridayText) {
+      captureFridays[index].innerText = numbers[index];
+    } else {
+      captureFridays[index].innerText = fridayText;
+    }
+  }
+});
+
+// Exercício 6:
+const captureMonthDays = document.querySelectorAll('.day');
+
+for (let index = 0; index < captureMonthDays.length; index += 1) {
+    captureMonthDays[index].addEventListener('mouseover', (event) => {
+    event.target.style.fontWeight = '600';
+  });
+}
+
+for (let index = 0; index < captureMonthDays.length; index += 1) {
+  captureMonthDays[index].addEventListener('mouseout', (event) =>{
+    event.target.style.fontWeight = '200';
+  });
+}
+
+// Exercício 7:
