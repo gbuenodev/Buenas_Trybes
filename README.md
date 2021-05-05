@@ -36,10 +36,10 @@
 - [x] _Projeto - Playground Functions_ 💯
 
 #### Bloco 05 - JavaScript: DOM, Eventos e Web Storage
-- [ ] 1.1 JavaScript - DOM e seletores
-- [ ] 1.2 JavaScript - Trabalhando com elementos
-- [ ] 1.3 JavaScript - Eventos
-- [ ] 1.4 JavaScript - Web Storage
+- [x] 1.1 JavaScript - DOM e seletores
+- [x] 1.2 JavaScript - Trabalhando com elementos
+- [x] 1.3 JavaScript - Eventos
+- [x] 1.4 JavaScript - Web Storage
 - [ ] 1.5 Fundamentos - JavaScript - Projetos
 - [ ] _Projeto - Arte com Pixels_
 - [ ] _Projeto - Lista de Tarefas_
