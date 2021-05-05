@@ -113,18 +113,18 @@ for (let index = 0; index < captureMonthDays.length; index += 1) {
 }
 
 for (let index = 0; index < captureMonthDays.length; index += 1) {
-  captureMonthDays[index].addEventListener('mouseout', (event) =>{
+  captureMonthDays[index].addEventListener('mouseout', (event) => {
     event.target.style.fontWeight = '200';
   });
 }
 
 // Exercício 7:
-const captureDivTasks = document.querySelector('.my-tasks');
+const captureDivMyTasks = document.querySelector('.my-tasks');
 
 const adicionaTarefa = (texto) => {
   let newSpan = document.createElement('span');
   newSpan.innerText = texto;
-  captureDivTasks.appendChild(newSpan);
+  captureDivMyTasks.appendChild(newSpan);
 };
 
 adicionaTarefa('Estudar WebDevelopment.');
@@ -134,9 +134,22 @@ const adicionaLegendaComCor = (cor) => {
   let newDiv = document.createElement('div');
   newDiv.className = 'task';
   newDiv.style.backgroundColor = cor;
-  captureDivTasks.appendChild(newDiv);
+  captureDivMyTasks.appendChild(newDiv);
 }
 
 adicionaLegendaComCor('red');
 
 // Exercício 9:
+const captureDivTask = document.querySelectorAll('.task');
+
+for (let index = 0; index < captureDivTask.length; index += 1) {
+  captureDivTask[index].addEventListener('click', (event) => {
+    if (event.target.className === 'task') {
+      event.target.className = 'task selected';
+    } else {
+    event.target.className = 'task'
+    }
+  });
+}
+
+// Exercício 10:
