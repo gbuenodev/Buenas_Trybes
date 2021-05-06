@@ -40,8 +40,8 @@
 - [x] 1.2 JavaScript - Trabalhando com elementos
 - [x] 1.3 JavaScript - Eventos
 - [x] 1.4 JavaScript - Web Storage
-- [ ] 1.5 Fundamentos - JavaScript - Projetos
-- [ ] _Projeto - Arte com Pixels_
+- [x] 1.5 Fundamentos - JavaScript - Projetos
+- [x] _Projeto - Arte com Pixels_ 💯
 - [ ] _Projeto - Lista de Tarefas_
 - [ ] _(Bônus) Projeto - Meme Generator_
 - [ ] _(Bônus) Projeto - Adivinhe a Cor_
