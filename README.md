@@ -42,7 +42,7 @@
 - [x] 1.4 JavaScript - Web Storage
 - [x] 1.5 Fundamentos - JavaScript - Projetos
 - [x] _Projeto - Arte com Pixels_ 💯
-- [ ] _Projeto - Lista de Tarefas_
+- [x] _Projeto - Lista de Tarefas_ 💯
 - [ ] _(Bônus) Projeto - Meme Generator_
 - [ ] _(Bônus) Projeto - Adivinhe a Cor_
 - [ ] _(Bônus) Projeto - Carta Misteriosa_
