@@ -46,3 +46,12 @@
 - [ ] _(Bônus) Projeto - Meme Generator_
 - [ ] _(Bônus) Projeto - Adivinhe a Cor_
 - [ ] _(Bônus) Projeto - Carta Misteriosa_
+
+#### Bloco 06 - HTML e CSS: Forms, Flexbox e Responsividade
+- [ ] 1.1 HTML & CSS - Forms
+- [ ] 1.2 Bibliotecas JavaScript e Frameworks CSS
+- [ ] 1.3 Introdução - CSS Flexbox
+- [ ] 1.3 CSS Flexbox - Parte 1 
+- [ ] 1.4 CSS Flexbox - Parte 2
+- [ ] 1.5 CSS Responsivo - Mobile First
+- [ ] _Projeto - Trybewarts_
