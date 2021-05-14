@@ -34,27 +34,27 @@
           <option disabled selected value>Selecione seu estado</option>
         </select>
       </label>
-      <label for="tipo-residencia">Tipo de residência: </label>
-      <input type="radio" name="tipo-residencia" id="casa" value="casa" required> <span>Casa</span>
-      <input type="radio" name="tipo-residencia" id="apartamento" value="apartamento" required> <span>Apartamento</span>
+      <label for="tipo_residencia">Tipo de residência: </label>
+      <input type="radio" name="tipo_residencia" id="casa" value="casa" required> <span>Casa</span>
+      <input type="radio" name="tipo_residencia" id="apartamento" value="apartamento" required> <span>Apartamento</span>
     </fieldset>
 
     <fieldset>
       <legend>Dados Profissionais</legend>
       <p>Resumo do Currículo: </p>
-      <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000"
-        placeholder="Digite aqui seu resumo"></textarea>
+      <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" placeholder="Digite aqui seu resumo"
+        required></textarea>
       <label for="cargo">Cargo:
         <input type="text" name="cargo" id="cargo" placeholder="Digite seu cargo" maxlength="40" required>
       </label>
       <p>Descrição do Cargo: </p>
-      <textarea name="descricao-cargo" id="descricao-cargo" cols="30" rows="10" maxlength="500"
+      <textarea name="descricao_cargo" id="descricao_cargo" cols="30" rows="10" maxlength="500"
         placeholder="Digite uma descrição do seu cargo"></textarea>
       <label for="data">Data:
         <input type="date" name="data" id="data" required>
       </label>
     </fieldset>
-    <button type="submit">Enviar</button>
+    <button type="submit" id="submit">Enviar</button>
   </form>
 
   <script src="./script.js"></script>
