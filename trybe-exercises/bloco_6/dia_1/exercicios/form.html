@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Curriculum Vitae</h1>
+  <form action="" id="curriculo">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <label for="name">Nome:
+        <input type="text" name="name" id="name" placeholder="Digite seu nome" maxlength="40" required>
+      </label>
+      <label for="email">Email:
+        <input type="email" name="email" id="email" placeholder="Digite seu email" maxlength="50" required>
+      </label>
+      <label for="cpf">CPF:
+        <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf" maxlength="11" required>
+      </label>
+      <label for="endereco">Endereço:
+        <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" maxlength="200" required>
+      </label>
+      <label for="cidade">Cidade:
+        <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" maxlength="28" required>
+      </label>
+      <label for="estado">Estado:
+        <select name="estado" id="estado" required>
+          <option disabled selected value>Selecione seu estado</option>
+        </select>
+      </label>
+      <label for="tipo-residencia">Tipo de residência: </label>
+      <input type="radio" name="tipo-residencia" id="casa" value="casa" required> <span>Casa</span>
+      <input type="radio" name="tipo-residencia" id="apartamento" value="apartamento" required> <span>Apartamento</span>
+    </fieldset>
+
+    <fieldset>
+      <legend>Dados Profissionais</legend>
+      <p>Resumo do Currículo: </p>
+      <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000"
+        placeholder="Digite aqui seu resumo"></textarea>
+      <label for="cargo">Cargo:
+        <input type="text" name="cargo" id="cargo" placeholder="Digite seu cargo" maxlength="40" required>
+      </label>
+      <p>Descrição do Cargo: </p>
+      <textarea name="descricao-cargo" id="descricao-cargo" cols="30" rows="10" maxlength="500"
+        placeholder="Digite uma descrição do seu cargo"></textarea>
+      <label for="data">Data:
+        <input type="date" name="data" id="data" required>
+      </label>
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

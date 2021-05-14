@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, grey, white);
+}
+
+label {
+  display: block;
+  margin: 5px auto;
+}
+
+fieldset {
+  width: 80%;
+  border-radius: 2px;
+  border: solid black 3px;
+  margin: 30px auto;
+}
+
+input {
+  width: 50%;
+}
