@@ -1,0 +1,41 @@
+body {
+  font-size: 20px;
+  margin: 15px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+img {
+  max-width: 100%;
+  margin: 10px;
+}
+
+figure {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: aquamarine;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 25px;
+  }
+}
