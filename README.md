@@ -6,20 +6,20 @@
 >
 >São mais de 1500 horas de formação que aborda fundamento de desenvolvimento web, desenvolviemento, Front-end, Back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-### Fundamentos do Desenvolvimento Web ✅
+### Fundamentos do Desenvolvimento Web 
 
-#### Bloco 1 - Unix & Bash
+#### Bloco 1 - Unix & Bash ✅
 - [x] 1.3 Fundamentos do Desenvolvimento Web
 - [x] 1.3 Introdução - Unix & Shell
 - [x] 1.3 Unix & Bash - Parte 1
 - [x] 1.4 Unix & Bash - Parte 2
 
-#### Bloco 2 - Git, GitHub e Internet
+#### Bloco 2 - Git, GitHub e Internet ✅
 - [x] 1.1 Git & GitHub - O que é e para que serve
 - [x] 1.2 Git & GitHub - Entendendo os comandos
 - [x] 1.3 Internet - Entendendo como ela funciona
 
-#### Bloco 3 - Introdução à HTML e CSS
+#### Bloco 3 - Introdução à HTML e CSS ✅
 - [x] 1.1 Introdução - HTML & CSS
 - [x] 1.1 HTML & CSS - Estruturas de página
 - [x] 1.2 HTML & CSS - Primeiros passos em CSS
@@ -27,7 +27,7 @@
 - [x] 1.4 HTML Semântico
 - [x] _Projeto - Lessons Learned_ 💯
 
-#### Bloco 4 - Introdução à JavaScript e Lógica de Programação
+#### Bloco 4 - Introdução à JavaScript e Lógica de Programação ✅
 - [x] 1.1 Introdução - JavaScript
 - [x] 1.1 JavaScript - Primeiros passos
 - [x] 1.2 JavaScript - Array e Loop For
@@ -35,7 +35,7 @@
 - [x] 1.4 JavaScript - Objetos e Funções
 - [x] _Projeto - Playground Functions_ 💯
 
-#### Bloco 05 - JavaScript: DOM, Eventos e Web Storage
+#### Bloco 05 - JavaScript: DOM, Eventos e Web Storage ✅
 - [x] 1.1 JavaScript - DOM e seletores
 - [x] 1.2 JavaScript - Trabalhando com elementos
 - [x] 1.3 JavaScript - Eventos
@@ -47,11 +47,11 @@
 - [ ] _(Bônus) Projeto - Adivinhe a Cor_
 - [ ] _(Bônus) Projeto - Carta Misteriosa_
 
-#### Bloco 06 - HTML e CSS: Forms, Flexbox e Responsividade
-- [ ] 1.1 HTML & CSS - Forms
-- [ ] 1.2 Bibliotecas JavaScript e Frameworks CSS
-- [ ] 1.3 Introdução - CSS Flexbox
-- [ ] 1.3 CSS Flexbox - Parte 1 
-- [ ] 1.4 CSS Flexbox - Parte 2
-- [ ] 1.5 CSS Responsivo - Mobile First
+#### Bloco 06 - HTML e CSS: Forms, Flexbox e Responsividade ✅
+- [x] 1.1 HTML & CSS - Forms
+- [x] 1.2 Bibliotecas JavaScript e Frameworks CSS
+- [x] 1.3 Introdução - CSS Flexbox
+- [x] 1.3 CSS Flexbox - Parte 1 
+- [x] 1.4 CSS Flexbox - Parte 2
+- [x] 1.5 CSS Responsivo - Mobile First
 - [ ] _Projeto - Trybewarts_
