@@ -54,4 +54,10 @@
 - [x] 1.3 CSS Flexbox - Parte 1 
 - [x] 1.4 CSS Flexbox - Parte 2
 - [x] 1.5 CSS Responsivo - Mobile First
-- [ ] _Projeto - Trybewarts_
+- [x] _Projeto - Trybewarts_ 💯
+
+#### Bloco 07 - Introdução à JavaScript ES6 e Testes Unitários
+- [x] 1.1 JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 1.2 JavaScript ES6 - Objects
+- [x] 1.3 Testes Unitários em JavaScript
+- [ ] _Projeto - JavaScript Tests Unitários_
