@@ -56,8 +56,16 @@
 - [x] 1.5 CSS Responsivo - Mobile First
 - [x] _Projeto - Trybewarts_ 💯
 
-#### Bloco 07 - Introdução à JavaScript ES6 e Testes Unitários
+#### Bloco 07 - Introdução à JavaScript ES6 e Testes Unitários ✅
 - [x] 1.1 JavaScript ES6 - let, const, arrow functions e template literals
 - [x] 1.2 JavaScript ES6 - Objects
 - [x] 1.3 Testes Unitários em JavaScript
-- [ ] _Projeto - JavaScript Tests Unitários_
+- [x] _Projeto - JavaScript Tests Unitários_ 💯
+
+#### Bloco 08 - Higher Order Functions do JavaScript ES6
+- [] 1.1 JavaScript ES6 - Introdução a Higher Order Functions
+- [] 1.2 JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [] 1.3 JavaScript ES6 - Higher Order Functions - map e filter
+- [] 1.4 JavaScript ES6 - Higher Order Functions - reduce
+- [] 1.5 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [] _Projeto - Zoo functions_
