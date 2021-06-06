@@ -69,3 +69,14 @@
 - [x] 1.4 JavaScript ES6 - Higher Order Functions - reduce
 - [x] 1.5 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] _Projeto - Zoo functions_ 💯
+
+#### Bloco 09 - JavaScript Assíncrono e Promises 
+- [ ] 1.1 JavaScript Assíncrono e Callbacks
+- [ ] 1.2 JavaScript Promises
+- [ ] _Projeto - Carrinho de Compras_
+
+#### Bloco 10 - Testes automatizados com Jest
+- [ ] 1.1 Primeiros passos no Jest
+- [ ] 1.2 Jest - Testes Assíncronos
+- [ ] 1.3 Jest - Simulando comportamentos
+- [ ] _Projeto - Jest Assíncrono e Mocking_
