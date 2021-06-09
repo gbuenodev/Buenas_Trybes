@@ -1,0 +1,23 @@
+{
+  "name": "buenas_trybes",
+  "version": "1.0.0",
+  "description": "## Repositório de exercícios realizados durante a formação de Desenvolvedor Web Full-Stack na [Trybe](https://www.betrybe.com/). 🚀",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbuenodev/Buenas_Trybes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbuenodev/Buenas_Trybes/issues"
+  },
+  "homepage": "https://github.com/gbuenodev/Buenas_Trybes#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
