@@ -71,8 +71,8 @@
 - [x] _Projeto - Zoo functions_ 💯
 
 #### Bloco 09 - JavaScript Assíncrono e Promises 
-- [ ] 1.1 JavaScript Assíncrono e Callbacks
-- [ ] 1.2 JavaScript Promises
+- [x] 1.1 JavaScript Assíncrono e Callbacks
+- [x] 1.2 JavaScript Promises
 - [ ] _Projeto - Carrinho de Compras_
 
 #### Bloco 10 - Testes automatizados com Jest
