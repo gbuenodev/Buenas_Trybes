@@ -70,10 +70,10 @@
 - [x] 1.5 JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] _Projeto - Zoo functions_ 💯
 
-#### Bloco 09 - JavaScript Assíncrono e Promises 
+#### Bloco 09 - JavaScript Assíncrono e Promises ✅
 - [x] 1.1 JavaScript Assíncrono e Callbacks
 - [x] 1.2 JavaScript Promises
-- [ ] _Projeto - Carrinho de Compras_
+- [x] _Projeto - Carrinho de Compras_ 💯
 
 #### Bloco 10 - Testes automatizados com Jest
 - [ ] 1.1 Primeiros passos no Jest
