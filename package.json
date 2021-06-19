@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gbuenodev/Buenas_Trybes#readme",
   "dependencies": {
+    "@types/jest": "^26.0.23",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
