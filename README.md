@@ -6,7 +6,9 @@
 >
 >São mais de 1500 horas de formação que aborda fundamento de desenvolvimento web, desenvolviemento, Front-end, Back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-### Fundamentos do Desenvolvimento Web 
+---
+### Fundamentos do Desenvolvimento Web ✔️
+---
 
 #### Bloco 1 - Unix & Bash ✅
 - [x] 1.3 Fundamentos do Desenvolvimento Web
@@ -75,8 +77,33 @@
 - [x] 1.2 JavaScript Promises
 - [x] _Projeto - Carrinho de Compras_ 💯
 
-#### Bloco 10 - Testes automatizados com Jest
-- [ ] 1.1 Primeiros passos no Jest
-- [ ] 1.2 Jest - Testes Assíncronos
-- [ ] 1.3 Jest - Simulando comportamentos
-- [ ] _Projeto - Jest Assíncrono e Mocking_
+#### Bloco 10 - Testes automatizados com Jest ✅
+- [x] 1.1 Primeiros passos no Jest
+- [x] 1.2 Jest - Testes Assíncronos
+- [x] 1.3 Jest - Simulando comportamentos
+- [x] _Projeto - Jest Assíncrono e Mocking_ 💯
+
+---
+### Desenvolvimento Front-End 
+---
+
+#### Bloco 11 - Introdução à React
+- [x] 1.1 Introdução - Front-End
+- [x] 1.1 Introdução - React
+- [x] 1.1 'Hello, world!'no React!
+- [x] 1.2 Componentes React
+- [ ] _Projeto - Movie Cards Library_
+
+#### Bloco 12 - Componentes com Estado, Eventos e Formulários com React
+- [ ] 1.1 Componentes com Estado, Eventos e Formulários com React
+- [ ] 1.2 Formulários no React
+- [ ] _Projeto - Movie Cards Library Stateful_
+
+#### Bloco 13 - Ciclo de Vida de Componentes e React Router
+- [ ] 1.1 Ciclo de vida de componentes
+- [ ] 1.2 React Router
+- [ ] _Projeto - Movie Cards Library CRUD_
+
+#### Bloco 14 - Metodologias Ágeis
+- [ ] 1.1 Metodologias Ágeis
+- [ ] _Projeto - Front-End Online Store_
