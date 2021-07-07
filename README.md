@@ -87,22 +87,22 @@
 ### Desenvolvimento Front-End 
 ---
 
-#### Bloco 11 - Introdução à React
+#### Bloco 11 - Introdução à React ✅
 - [x] 1.1 Introdução - Front-End
 - [x] 1.1 Introdução - React
 - [x] 1.1 'Hello, world!'no React!
 - [x] 1.2 Componentes React
-- [ ] _Projeto - Movie Cards Library_
+- [x] _Projeto - Movie Cards Library_ 💯
 
-#### Bloco 12 - Componentes com Estado, Eventos e Formulários com React
-- [ ] 1.1 Componentes com Estado, Eventos e Formulários com React
-- [ ] 1.2 Formulários no React
-- [ ] _Projeto - Movie Cards Library Stateful_
+#### Bloco 12 - Componentes com Estado, Eventos e Formulários com React ✅
+- [x] 1.1 Componentes com Estado, Eventos e Formulários com React
+- [x] 1.2 Formulários no React
+- [x] _Projeto - Movie Cards Library Stateful_ 💯
 
-#### Bloco 13 - Ciclo de Vida de Componentes e React Router
-- [ ] 1.1 Ciclo de vida de componentes
-- [ ] 1.2 React Router
-- [ ] _Projeto - Movie Cards Library CRUD_
+#### Bloco 13 - Ciclo de Vida de Componentes e React Router ✅
+- [x] 1.1 Ciclo de vida de componentes
+- [x] 1.2 React Router
+- [x] _Projeto - Movie Cards Library CRUD_ 💯
 
 #### Bloco 14 - Metodologias Ágeis
 - [ ] 1.1 Metodologias Ágeis
