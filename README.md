@@ -105,5 +105,5 @@
 - [x] _Projeto - Movie Cards Library CRUD_ 💯
 
 #### Bloco 14 - Metodologias Ágeis
-- [ ] 1.1 Metodologias Ágeis
+- [x] 1.1 Metodologias Ágeis
 - [ ] _Projeto - Front-End Online Store_
